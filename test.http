@@ -1,0 +1,36 @@
+###
+#
+# Browse Users
+#
+GET http://localhost:4004/catalog/Users
+
+###
+#
+# Get Author wit ID 101
+#
+GET http://localhost:4004/catalog/Quiz
+
+
+
+
+
+### updateQuiz
+POST  http://localhost:4004/catalog/updateQuiz
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "category": "Arts",
+  "difficulty": "Hard",
+  "score": 6
+}
+
+
+#
+###addUser
+POST  http://localhost:4004/catalog/addUser
+Content-Type: application/json
+
+{
+  "user_name": "aaii"
+}
