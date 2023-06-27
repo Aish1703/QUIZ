@@ -1,12 +1,12 @@
 
 import {  MenuItem, Select, Option, Input, Icon, Button } from '@ui5/webcomponents-react';
 import { spacing } from "@ui5/webcomponents-react-base";
-import Categories from "./Data/Categories";
+import Categories from "../Data/Categories";
 import React, { useState, useContext } from "react";
 import "@ui5/webcomponents-icons/dist/paper-plane.js";
 import {useNavigate} from 'react-router-dom';
-import {ConContext} from './MyApp';
-import ErrorMessage from './ErrorMessage';
+import {ConContext} from '../MyApp';
+import ErrorMessage from '../Components/ErrorMessage';
 const Home = () => {
   
     const [name, setName] = useState("");

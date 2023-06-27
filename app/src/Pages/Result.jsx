@@ -1,7 +1,7 @@
 
 import React,{useState, useEffect, useContext} from 'react';
 
-import {ConContext} from './MyApp';
+import {ConContext} from '../MyApp';
 import { useNavigate } from 'react-router-dom';
 import {spacing} from "@ui5/webcomponents-react-base";
 import {Button} from '@ui5/webcomponents-react';

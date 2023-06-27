@@ -2,11 +2,11 @@ import React ,{ useContext, createContext} from 'react';
 import { spacing, ThemingParameters } from "@ui5/webcomponents-react-base";
 import { useState } from "react";
 import { useNavigate} from "react-router-dom";
-import { QContext } from './Quiz';
+import { QContext } from '../Pages/Quiz';
 import './Question.css';
 import {Button} from '@ui5/webcomponents-react';
 import ErrorMessage from './ErrorMessage';
-import {ConContext} from './MyApp'
+import {ConContext} from '../MyApp'
 export const SContext = createContext()
 const Question = (
     

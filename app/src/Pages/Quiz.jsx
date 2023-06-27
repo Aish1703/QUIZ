@@ -1,6 +1,6 @@
 import React, {useContext, useState, useEffect, createContext} from 'react';
-import Question from './Question';
-import {ConContext} from './MyApp';
+import Question from '../Components/Question';
+import {ConContext} from '../MyApp';
 import { Button, ThemeProvider } from '@ui5/webcomponents-react';
 import { spacing, ThemingParameters } from "@ui5/webcomponents-react-base";
 import { useNavigate } from 'react-router-dom';

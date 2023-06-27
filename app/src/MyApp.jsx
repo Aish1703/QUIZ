@@ -1,11 +1,11 @@
 import React, { createContext, useEffect } from 'react';
 import { ShellBar , Icon, Text} from '@ui5/webcomponents-react';
 import { BrowserRouter, Navigate, Route, Routes, useNavigate } from "react-router-dom";
-import Home  from "./Home";
+import Home  from "./Pages/Home";
 import { spacing, ThemingParameters } from "@ui5/webcomponents-react-base";
 import { useState } from 'react';
-import Quiz from "./Quiz";
-import Result from "./Result"
+import Quiz from "./Pages/Quiz";
+import Result from "./Pages/Result"
 
 import axios from 'axios';
 
